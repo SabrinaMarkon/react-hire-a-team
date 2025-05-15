@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Nav component it should match the Nav snapshot 1`] = `
+<App>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <div>
+        <Nav>
+          <nav>
+            <ul>
+              <li>
+                <NavLink
+                  activeClassName="active"
+                  exact={true}
+                  to="/"
+                >
+                  <Link
+                    aria-current="page"
+                    className="active"
+                    style={Object {}}
+                    to="/"
+                  >
+                    <a
+                      aria-current="page"
+                      className="active"
+                      href="/"
+                      onClick={[Function]}
+                      style={Object {}}
+                    >
+                      Home
+                    </a>
+                  </Link>
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  activeClassName="active"
+                  to="/howitworks"
+                >
+                  <Link
+                    aria-current={null}
+                    to="/howitworks"
+                  >
+                    <a
+                      aria-current={null}
+                      href="/howitworks"
+                      onClick={[Function]}
+                    >
+                      How It Works
+                    </a>
+                  </Link>
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  activeClassName="active"
+                  to="/signup"
+                >
+                  <Link
+                    aria-current={null}
+                    to="/signup"
+                  >
+                    <a
+                      aria-current={null}
+                      href="/signup"
+                      onClick={[Function]}
+                    >
+                      Signup
+                    </a>
+                  </Link>
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  activeClassName="active"
+                  to="/login"
+                >
+                  <Link
+                    aria-current={null}
+                    to="/login"
+                  >
+                    <a
+                      aria-current={null}
+                      href="/login"
+                      onClick={[Function]}
+                    >
+                      Login
+                    </a>
+                  </Link>
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  activeClassName="active"
+                  to="/postjob"
+                >
+                  <Link
+                    aria-current={null}
+                    to="/postjob"
+                  >
+                    <a
+                      aria-current={null}
+                      href="/postjob"
+                      onClick={[Function]}
+                    >
+                      Post a Job
+                    </a>
+                  </Link>
+                </NavLink>
+              </li>
+            </ul>
+          </nav>
+        </Nav>
+        <Header>
+          <header>
+            Hire-A-Team
+          </header>
+        </Header>
+        <Switch>
+          <Route
+            computedMatch={
+              Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              }
+            }
+            exact={true}
+            location={
+              Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            path="/"
+          />
+        </Switch>
+        <Footer>
+          <footer>
+            Made with Love 4 U by Sabrina
+          </footer>
+        </Footer>
+      </div>
+    </Router>
+  </BrowserRouter>
+</App>
+`;

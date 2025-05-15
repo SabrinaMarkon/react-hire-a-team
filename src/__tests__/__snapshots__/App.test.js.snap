@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing main App component rendering it should match the App snapshot 1`] = `
+<BrowserRouter>
+  <div>
+    <Nav />
+    <Header />
+    <Switch>
+      <Route
+        exact={true}
+        path="/"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/howitworks"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/signup"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/login"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/postjob"
+      />
+      <Route
+        component={[Function]}
+      />
+    </Switch>
+    <Footer />
+  </div>
+</BrowserRouter>
+`;

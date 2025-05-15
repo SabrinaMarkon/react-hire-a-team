@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing footer component it should match the Footer snapshot 1`] = `
+<footer>
+  Made with Love 4 U by Sabrina
+</footer>
+`;

@@ -1,10 +1,21 @@
 # v9-solo-SabrinaMarkon
-Add-project-description-here | Voyage-9 | https://chingu.io/
+Hire-A-Team To Build Your Dream! | Voyage-9 | https://chingu.io/
 
-# Stack (tentative)
+Connecting remote development teams with employers!
+
+# Stack (MERN)
 React
-Vanilla JS
-MySQL or Mongo (?) Can't decide yet
-Jest Unit and Snapshot Testing
-GraphQL
+React Router
+Redux
+MongoDB
+Jest
+Enzyme
+Express
+Webpack
+SASS
+Babel
+Fonts - Open Sans or Roboto, Playfair Display or Georgia
+
+# Main Learning Goal
+Strengthen Testing Skills
 
